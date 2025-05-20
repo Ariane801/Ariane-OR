@@ -25,7 +25,8 @@ body{
     flex-wrap: wrap;
     border: 2px solid red;
     box-shadow: 20px 20px 30px black;
-    width: 500px;
+    width: 700px;
+    height: 500px;
 }
 .header{
     display: flex;
