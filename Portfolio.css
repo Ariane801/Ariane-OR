@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: normal;
+    background-color: gray;
+}
+img{
+    width: 500px;
+    align-items: center;
+}
+a{
+    text-align:end;
+}

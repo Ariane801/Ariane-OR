@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    padding: 20px;
+}
+.card{
+     border: 5px solid red;
+     padding: 3px;
+     background-color: white;
+     text-align: center;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
