@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORMULAIRE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="formulaire.css">
+    </head>
+    <body>
+<form action="#" method="post">
+  <label for="name">Nom complet :</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email :</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="phone">Téléphone :</label><br>
+  <input type="tel" id="phone" name="phone"><br><br>
+
+  <label for="dob">Date de naissance :</label><br>
+  <input type="date" id="dob" name="dob"><br><br>
+
+  <label for="gender">Sexe :</label><br>
+  <select id="gender" name="gender">
+    <option value="femme">Femme</option>
+    <option value="homme">Homme</option>
+    <option value="autre">Autre</option>
+  </select><br><br>
+
+  <label for="skills">Compétences :</label><br>
+  <input type="checkbox" name="skills" value="HTML"> HTML
+  <input type="checkbox" name="skills" value="CSS"> CSS
+  <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br><br>
+
+  <label for="message">Message :</label><br>
+  <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+  <button type="submit">Envoyer</button>
+</form>
+</body>
+</html>
